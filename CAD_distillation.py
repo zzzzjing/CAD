@@ -184,7 +184,7 @@ def main():
         acc = 100.0 * correct / total
         print(f"Epoch [{epoch+1}/{num_epochs}] Test accuracy: {acc:.2f}%")
 
-    torch.save(student_model.state_dict(), "CAD_student_resnet18_distilled.pth")
+    torch.save(student_model.state_dict(), "CAD_distilled.pth")
     print("Student model training completed. Model saved.")
 
 if __name__ == '__main__':
