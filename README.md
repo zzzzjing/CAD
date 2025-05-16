@@ -1,3 +1,5 @@
+Collaborative Adversarial Distillation Approach for Robust Defense against Adversarial Attacks
+
 This repository contains the core implementation of our method described in the paper. To maintain clarity and brevity, we have included only the essential code components. The implementation uses the CIFAR-100 dataset as an example.
 
 
