@@ -19,7 +19,7 @@ AutoAttack<br>
 
 **Run**:
 <br>step 1：python Tea_clean_resnet56_CIFAR-100.py      
-<br>step 2: python Tea_wide-34-10_adv_DPGD.py           
+<br>step 2: python Tea_robust_wide34-10_CIFAR-100.py           
 <br>step 3: python CAD_distillation.py                  
 <br>step 4: python eva_resnet18.py
 
